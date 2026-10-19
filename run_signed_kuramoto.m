@@ -1,4 +1,4 @@
-ufunction [results, outdir] = run_signed_kuramoto(mode, outdir, user)
+function [results, outdir] = run_signed_kuramoto(mode, outdir, user)
 % Frequency synchronization of signed Kuramoto networks via a pi-state transformation.
 % A(i,j) is the directed weight from node j to node i.
 % Phase diameters are computed in unwrapped transformed coordinates.
